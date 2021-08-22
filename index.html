@@ -11,46 +11,65 @@
 <body>
     <header class="header-main">
         <nav class="header-list">
-            <a href="#">Каталог</a>
-            <a href="#">Доставка и оплата</a>
-            <a href="#">Отзывы</a>
-            <img class="header-logo" src="images/Лого Сайта.svg" alt="Botanika цветы в петербурге">
-            <a href="#">Cпецпредложения</a>
-            <a href="#">Контакты</a>
-            <a href="#">Корзина</a>
+            <a href="#nowhere">
+                <img class="header-logo" src="images/Лого Сайта.svg" alt="Botanika цветы в петербурге">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Каталог</a>
+                </li>
+                <li>
+                <a href="#">Доставка и оплата</a>
+                </li>
+                <li>
+                    <a href="#">Отзывы</a>
+                </li>
+                <li>
+                    <a href="#">Cпецпредложения</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+                <li>
+                    <a href="#">Корзина</a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <div class="main-header">
-            <div class="Peterburg Flowers">
-                <h3>Авторские букеты в петербурге</h3>
-                <p>Оригинальные свежие букеты с доставкой по всему городу</p>
-                <p style="text-align: center"><button>Смотреть каталог</button>
-                    <img src="images/Bucket-1 1.jpg" alt="Букет тюльпанов" width="386" height="404">
-                    <img src="images/Bucket-2 1.jpg" alt="Букет различных цветов" width="387" height="420">
-            </div>
-        </div>
-        <div class="main-list">
-            <div class="fast-delivery">
-                <img src="images/Fast-Delivery.svg" alt="Едущий фургончик">
-                <p>Быстрая доставка</p>
-                <p>Можем собрать будет и передать<br> его в доасавку всего за час</p>
-            </div>
-            <div class="always fresh flowers">
-                <img src="/images/always fresh flowers.svg" alt="Букет цветов">
-                <p>Всегда свежие цветы</p>
-                <p>Тщательно следим за состоянием<br> цветов, а опытные флористы<br> отбирают для бкуетов каждый<br>
-                    цветок</p>
-            </div>
-            <div class="sending photo flowers">
-                <img src="images/Camera.svg" alt="фотоаппарат">
-                <p>Отправляем фото цветов</p>
-                <p>Перед доставкой сделаем<br> фотографию букета и отправим<br> вам.</p>
-            </div>
-        </div>
-        <div class="popular-flowers">
+
+    <main class="main-header">
+        <section class="Peterburg Flowers">
+            <h2>Авторские букеты в петербурге</h2>
+            <p>Оригинальные свежие букеты с доставкой по всему городу</p>
+            <a href="#" class="button">Смотреть каталог</a>
+    
+            <img src="images/Bucket-1 1.jpg" alt="Букет тюльпанов" width="386" height="404">
+            <img src="images/Bucket-2 1.jpg" alt="Букет различных цветов" width="387" height="420">
+    
+              <dl>
+                <div class="fast-delivery">
+                    <img src="images/Fast-Delivery.svg" alt="Едущий фургончик">
+                    <dt>Быстрая доставка</dt>
+                    <dd>Можем собрать будет и передать его в доасавку всего за час</dd>
+                </div>
+                <div class="always fresh flowers">
+                    <img src="/images/always fresh flowers.svg" alt="Букет цветов">
+                    <dt>Всегда свежие цветы</dt>
+                    <dd>Тщательно следим за состоянием цветов, а опытные флористы отбирают для бкуетов каждый цветок
+                    </dd>
+                </div>
+                <div class="sending photo flowers">
+                    <img src="images/Camera.svg" alt="фотоаппарат">
+                    <dt>Отправляем фото цветов</dt>
+                    <dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+                </div>
+            </dl>
+        </section>>
+
+        <section class="popular-flowers">
+            <h3>Популярные букеты</h3>
             <div class="wives">
-                <h3>Популярные букеты</h3>
+                
                 <p class="popular text">Букет «Нежность»</p>
                 <p>Элегантный букет, который станет отличным подарком на день рожней или юбилей.</p>
                 <p>30x40 см</p>
@@ -62,7 +81,8 @@
                 <img src="/images/Left Arrow.svg" alt="Стрелва влево">
                 <img src="images/Right Arrow.svg" alt="Стрела вправо">
             </div>
-        </div>
+        </section>
+
         <div class="main-order">
             <div class="svadebnie-flowers">
                 <img src="/images/Cвадебные букеты 1.png" alt="Свадебные букеты" width="388" height="442">
@@ -152,7 +172,7 @@
                     <li>Напишите нам:<br>info@botanika.ru</li>
                 </ul>
             </div>
-            <img src="/images/map.jpg" alt="Графическая карта"> 
+            <img src="/images/map.jpg" alt="Графическая карта">
         </div>
     </main>
     <footer class="footer-main">
@@ -167,4 +187,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
